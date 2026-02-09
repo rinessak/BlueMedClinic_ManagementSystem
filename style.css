@@ -1,0 +1,766 @@
+body{
+    font-size: medium;
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*--------Header---------*/
+
+header{
+    box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.2);
+}
+.header-content{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 27px;
+    color: #4200FF;
+    font-weight: 600;
+}
+.navbar{
+    width: 70%;
+}
+
+.nav-items{
+    display: flex;
+    justify-content:end;
+    list-style: none;
+}
+
+.navbar li a{
+    margin: 15px;
+    color: #404040;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.navbar li a:hover{
+    color: #4200FF;
+    border-bottom: solid 1px #4200FF;
+}
+
+.navbar .active{
+    color: #4200FF;
+    border-bottom: solid 2px #4200FF;
+}
+
+.navbar #login{
+    border: solid 1px #4200FF;
+    background-color: #4200FF;
+    border-radius: 13px;
+    padding: 5px;
+    margin-right: 15px;    
+    text-align: center;
+    width: 20%;
+    cursor: pointer;
+}
+.navbar #login a{
+    color: white;
+    border-bottom: none;
+}
+
+.navbar #sign-up{
+    border: solid 2px #4200FF;
+    background-color: white;
+    border-radius: 13px;
+    padding: 5px;  
+    text-align: center;
+    width: 20%;
+    cursor: pointer;
+}
+
+.navbar #sign-up a{
+    color: #4200FF;
+    border-bottom: none;  
+}
+/*===============   LOG IN FORM    =========== */
+
+#logIn-Form { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #81a0ee;
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+
+/*============  Section 1 ============*/
+
+
+.sec1, .sec4{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slogan-container h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.slogan-container h1 span{
+    color: #4200FF;
+}
+.slogan-container p{
+    color: #A7A7A7;
+    font-size: medium;
+}
+
+.slogan-container button{
+    background-color: #4200FF;
+    color: white;
+    border:#4200FF;
+    border-radius: 13px;
+    padding: 20px 30px;
+    margin-top: 10%;
+    width: 50%;
+    text-align: left;
+    cursor: pointer;
+}
+.sec1-right-side {
+    position: relative;
+    text-align: center;
+    isolation: isolate;
+}
+
+.sec1-right-side .image-background{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 300px;
+    background-color: #4200FF;
+    border-radius: 100%;
+    z-index: -1;
+}
+.sec1-right-side img{
+    width: 720px;
+    max-width: 740px;
+    height: 420px;
+
+}
+.sec1-right-side .image-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    line-height: 0.5;
+}
+  
+.sec1-right-side .image-content-1 {
+    transform: translate(calc(-50% - 180px), calc(-50% - 128px));
+}
+  
+  
+.sec1-right-side .image-content-1,  
+.image-content-2, .image-content-3 h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
+  
+.sec1-right-side .image-content-1 p , .image-content-3 p{
+    color: #A7A7A7;
+    font-size: 13px;
+}
+  
+.sec1-right-side .image-content-2 {
+    transform: translate(calc(-50% + 200px), calc(-50% + 50px));
+}
+  
+.sec1-right-side .image-content-3{
+    transform: translate(calc(-100% - 120px), calc(+90% + 10px));
+}
+
+
+/*============end Section 1 ============*/
+
+/*===========  Section 2  SERVICES =============*/ 
+
+.sec2{
+    background-color:gainsboro;
+    padding: 50px 0;
+}
+.sec2  .title-container, 
+.sec3 .title-container, 
+.sec4 .title-container,
+.sec5 .title-container{
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+.sec2 .title-container p{
+    color: #B4B4B4;
+}
+
+.sec2 .clinic-services, .sec4 .patients-testimonial {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.clinic-services .service{
+    width: 15%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px rgba(0,0,0, 0.3);
+    padding: 20px 10px;
+}
+
+.clinic-services .service-content{
+    padding: 20px;
+    line-height: 1.5;
+}
+.clinic-services .service-content h4{
+    color: #404040;
+    text-align: center;
+    font-size:  14px;
+    font-weight: 400;
+}
+
+.clinic-services .service-content i{
+    display: flex;
+    justify-content: center;
+    color: #4200FF;
+}
+/*PHP part for services*/
+ .image img {
+    height: calc(400px - 70px);
+    background-size: cover;
+}
+
+/*============end Section 2 ============*/
+/*  ---- Paraqitja e PACIENTEVE  -----  */
+
+.forma {
+    width: 100%;
+    margin: 0 auto;
+
+}
+.forma h1 {
+    font-size: 21px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.forma input,
+.forma textarea  {
+    width: 500px;
+    padding: 5px;
+    margin-top: 4px;
+    border-radius: 5px;
+    outline: none;
+    border-color: #2922e19f;
+}
+
+.forma input,
+.forma textarea {
+    caret-color: black;
+}
+
+select {
+    width: 513px;
+    padding: 5px;
+    margin-top: 4px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.forma label {
+    color: black;
+    font-size: 20px;
+}
+
+.forma .inputAndLabels {
+    margin-bottom: 20px;
+}
+
+
+/*============  Section 3- Doctors ============*/
+
+
+.clinic-doctors {
+    display: flex ;   
+    flex-wrap: nowrap; /* për të mos lejuar elementët të shpërndahen në rreshta të rinj */
+    overflow-x: auto; 
+    margin-bottom: 5%;
+}
+
+.doctor {
+    flex: 0 0 auto; /* për të lejuar elementët të ruajnë madhësinë e tyre origjinale */
+    margin-right: 20px; /* për të lënë hapësirë mes doktorëve */
+}
+.doctor-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 10px;
+min-width: 400px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-content img {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin-bottom: 20px;
+}
+
+.details {
+text-align: center;
+}
+
+.details h4 {
+margin-top: 0;
+}
+  
+.details p {
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+}
+
+/* .details ul li {
+margin-right: 10px;
+} */
+
+.details button {
+background-color: #4CAF50;
+color: #fff;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+margin-top: 15px;
+cursor: pointer;
+}
+
+.details button:hover {
+background-color: #3e8e41;
+}
+
+/*-------------------    DOCTORS   - PHP    -----------------------------------------------*/
+.list-entity,
+.section-shto-modifiko {
+    margin-top: 50px!important;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.doc-image img {
+    width: 100px;
+    height: 350px;
+    /*object-fit: cover;*/
+}
+
+.doc-image  img{
+    position: relative;
+    z-index: 5;
+    width: 400px;
+    border-radius: 50%;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    min-width: 1000px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #0082e6;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center!important;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #93c2e6;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #0082e6;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #93c2e6;
+}
+
+#add_entity{
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-left: auto;
+    border: none;
+    padding: 10px;
+    background: #4200FF;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/*============end Section 3 ============*/
+
+
+
+/*==========  Section4 Patients Testimonial ===============*/
+
+
+.sec4{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    padding-bottom: 5%;
+}
+
+.sec4 .testimonial{
+    width: 30%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px rgba(0,0,0, 0.3);
+    padding: 10px 10px;
+}
+.sec4 .testimonial .testimonial-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4 .circle-part{
+    width: 200px; 
+    height: 60px;  
+    background-color: #4200FF;
+    border-radius: 100%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.sec4 .testimonial-content .details {
+    padding-right: 10%;
+    text-align: left;
+    line-height: 1;
+    font-size: 12px;
+    color: #767676;
+    letter-spacing: 0.2;
+    margin-left: 10px;
+}
+
+.sec4 .testimonial-content .details ul{
+    justify-content: left !important;
+}
+
+/*======= end Section4  Patients Testimonial ========*/
+
+
+/*=======  Section 5  ========*/
+
+.sec5 .container-main-content{
+    background-color: gainsboro;
+    width: 60%;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% auto;
+    padding-bottom: 2%;
+}
+
+.sec5 label{
+    position: relative;
+}
+
+.sec5 h3{
+    color: #404040;
+    font-weight: 500;
+}
+
+.sec5 input[type="email"]{
+    border: solid 2px #B4B4B4;
+    border-radius: 8px;
+    width: 600px;
+    height: 50px;
+    padding-left: 10px;
+    letter-spacing: 1;
+}
+
+.sec5 button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(66, 0, 255, 0.85);
+    padding: 2%;
+    width: 120px;
+    border-radius: 10px;
+    margin: 5px 5px;
+    color: white;
+    letter-spacing: 0.9;
+    cursor: pointer;
+}
+
+/*============  end Section 5   ============*/
+/*------SIGN UP FORM --------------*/
+
+#signUpForm{
+    font-family: Arial, sans-serif;
+    margin: 10px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: #81a0ee;
+}
+
+#signUpForm .container{
+    margin: 20px 0 20px 0;
+    width: 37%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#signUpForm .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#signUpForm .form-group {
+    margin-bottom: 15px;
+}
+
+#signUpForm label {
+    font-weight: bold;
+}
+
+#signUpForm input[type="text"],
+#signUpForm input[type="date"],
+#signUpForm input[type="password"],
+#signUpForm select,
+#signUpForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#signUpForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#signUpForm button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/*============  Footeer   ============*/
+
+
+
+footer {
+    background-color: gainsboro;
+}
+.footer{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 96%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+.inner-footer{
+    width: 16%;
+}
+
+.inner-footer h2{
+    font-size: 22px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.inner-footer a{
+    font-size: 15px;
+    color: black;
+    display: block;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 4%;
+    line-height: 1.3;
+    text-decoration: none;
+}
+
+.inner-footer a:hover{
+    cursor: pointer;
+    color: #4200FF;
+}
+
+.inner-footer a:first-child{
+    color: #4200FF;
+    font-size: 30px;
+}
+
+.inner-footer p{
+    font-size: 14px;
+}
+
+.inner-footer p span{
+    font-weight: 500;
+}
+
+.inner-footer i{
+    color: #0015ffaf;
+    font-size: x-large;
+}
+.inner-footer:first-child{
+    width: 21%;
+}
+.inner-footer:last-child{
+    width: 21%;
+    background-color: #B4B4B4;
+    padding-left: 2%;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+.center{
+    margin-top: 121px;
+    margin-left: 10px;
+
+}
+
+.footer .contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input::placeholder, textarea::placeholder{
+    color: white;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 80%;
+    outline: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #767676;
+    border-color: rgb(66, 0, 255, 0.7);
+    color: white;
+}
+
+.main-footer {
+    background-color: #767676;
+    padding: 10px;
+}
+
+.main-footer p {
+    color: white;
+    font-size: 15px;
+}
+
+.error{
+    color: red;
+}
+
+/*==============  end Footer  =========================*/
+
+.p-y-50px{
+    padding: 50px 50px;
+}
+.rate ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: #4200FF;
+    margin-right: 10px;
+}
